@@ -6,7 +6,7 @@ public class Main {
         fahrzeug.fahrzeugInformationen();
         Auto auto = new Auto("VW", "Golf",1999,4);
         auto.fahrzeugInforamtionen();
-        Motorrad motorrad = new Motorrad("Kawasaki", "Hayabusa", 1999, "Sportsbike");
+        Motorrad motorrad = new Motorrad("Suzuki", "Hayabusa", 1999, "Sportsbike");
         motorrad.fahrzeugInformationen();
 
     }
