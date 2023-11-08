@@ -13,8 +13,12 @@ public class Fahrzeug {
         this.baujahr = baujahr;
 
     }
-    public String fahrzeugInformationen(){
-        return "Der Hersteller ist %s, das Modell ist %s und das Baujahr ist %d".formatted(hersteller,modell, baujahr);
+
+    public void fahrzeugInformationen(){
+        System.out.println("Hersteller: " + hersteller);
+        System.out.println("Modell: " + modell);
+        System.out.println("Baujahr: " + baujahr);
+        //return "Der Hersteller ist %s, das Modell ist %s und das Baujahr ist %d".formatted(hersteller,modell, baujahr);
 
     }
 }

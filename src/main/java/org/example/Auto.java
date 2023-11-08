@@ -6,13 +6,15 @@ public class Auto extends Fahrzeug{
     public Auto(){
         super();
     }
-    public Auto(int anzahlDerTueren){
-        super();
+    public Auto(String hersteller, String modell, int baujahr,int anzahlDerTueren){
+        super(hersteller, modell, baujahr);
         this.anzahlDerTueren = anzahlDerTueren;
     }
 
-    public String fahrzeugInforamtionen(){
-        return "Das Auto ist vom Hersteller %s, das Modell ist %s vom Baujahr %d und es hat %d Türen"
-                .formatted(this.hersteller,this.modell,this.baujahr,this.baujahr);
+    public void fahrzeugInforamtionen(){
+        super.fahrzeugInformationen();
+        System.out.println("Anzahl der Türen: " + anzahlDerTueren);
+        //return "Das Auto ist vom Hersteller %s, das Modell ist %s vom Baujahr %d und es hat %d Türen"
+        //        .formatted(this.hersteller,this.modell,this.baujahr,this.anzahlDerTueren);
     }
 }
