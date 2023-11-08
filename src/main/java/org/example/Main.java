@@ -6,6 +6,8 @@ public class Main {
         fahrzeug.fahrzeugInformationen();
         Auto auto = new Auto("VW", "Golf",1999,4);
         auto.fahrzeugInforamtionen();
+        Motorrad motorrad = new Motorrad("VW", "Golf", 1999, "Chopper");
+        motorrad.fahrzeugInformationen();
 
     }
 }
