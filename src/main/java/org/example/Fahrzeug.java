@@ -14,7 +14,7 @@ public class Fahrzeug {
 
     }
     public String fahrzeugInformationen(){
-        return "Der Hersteller ist %s, das Modell ist %d und das baujahr ist %r".formatted(hersteller,modell, baujahr);
+        return "Der Hersteller ist %s, das Modell ist %s und das Baujahr ist %d".formatted(hersteller,modell, baujahr);
 
     }
 }
